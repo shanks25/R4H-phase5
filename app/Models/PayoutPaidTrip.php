@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class PayoutPaidTrip extends Model
+{
+    use HasFactory;
+    protected $table = 'payout_paid_trips';
+}
